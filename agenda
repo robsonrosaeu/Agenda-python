@@ -1,0 +1,64 @@
+
+
+#testando de acordo com modelo do IESB
+
+print("***************************")
+print('*  Agenda robs v0,1       *')
+print("***************************")
+
+
+
+def nome():
+    pass
+
+    
+def email():
+    pass
+    
+    
+def tel():
+    pass
+    
+    
+def twitter():
+    pass
+    
+    
+def insta():
+    pass
+
+
+def principal():
+    
+    lista  = [] #Iniciando lista vazia
+
+    while True:
+        print(" 1 - Digite seu nome: ")
+        print(" 2 - Digite seu E-mail: ")
+        print(" 3 - Digite seu telefone: ")
+        print(" 4 - Digite seu twitter: ")
+        print(" 5 - Digite seu intagran: ")
+        print(" 6 - Sair")
+        opcao = int(input("> "))
+        
+        if opcao == 1:
+            print(nome)
+        elif opcao == 2:
+            print(email)
+        elif opcao == 3:
+            print(tel)
+        elif opcao == 4:
+            print(twitter)
+        elif opcao == 5:
+            print(insta)
+        elif opcao == 6:
+            print(sair)
+            break
+        else:
+            print("Opção invalida!")
+            
+        
+principal()
+    
+
+
